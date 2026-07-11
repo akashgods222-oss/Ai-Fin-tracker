@@ -51,15 +51,32 @@ body {
 }
 
 /* AI Bot Alert Style */
-.ai-log-box {
+.Ai chat-bot {
   background-color: #020617;
   padding: 20px;
   border-radius: 12px;
   border: 1px dashed #22c55e; /* Neon Green Border for AI look */
+  text-transform: uppercase;
+  letter-spacing:1px;
 }
 
-.ai-log-box h3 {
+.Ai chat-bot h3 {
   color: #22c55e;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   font-size: 16px;
+}
+
+#ai-status{
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+#analyze-btn{
+    background-color: #22c55e;
+    color:white;
+    padding:12px;
+    text-align:center;
+    margin:5px;
+    width:100%;
+    border:none;
+    font-weight:bold;
 }
