@@ -7,11 +7,13 @@ document.addEventListener("DOMContentLoaded",() => {
 
 aiStatusElement=document.getElementById("ai-status");
 myBtn=document.getElementById("analyze-btn");
+bugBox=document.getElementById("budget-tracker");
+expBox=document.getElementById("expense-tracker");
 
 // 1. CONST Variables (Jo rules ya user profile fix hain)
 const userName = "Akash";
 const monthlyBudget = 15000; // Total pocket money/income
-
+bugBox.innerText= "Rs"+ monthlyBudget;
 // 
 
 myBtn.addEventListener("click",() => {
@@ -22,7 +24,7 @@ let roomRent = 3000;
 
 
 let totalExpenses = foodExpense + internetRecharge + codingCourse + roomRent;
-
+    expBox.innerText ="Rs"+ totalExpenses;
 // Triggering conditions
 if (totalExpenses > monthlyBudget) {
     aiStatusElement.innerText="🚨 ALERT: Budget Khatam! Kharcha band karo.";
