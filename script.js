@@ -20,7 +20,7 @@ myBtn.addEventListener("click",() => {
     let foodExpense = 4500;
 let internetRecharge = 500;
 let codingCourse = 2000;
-let roomRent = 3000;
+let roomRent = 2000;
 
 
 let totalExpenses = foodExpense + internetRecharge + codingCourse + roomRent;
