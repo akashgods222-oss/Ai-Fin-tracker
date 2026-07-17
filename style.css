@@ -80,3 +80,30 @@ body {
     border:none;
     font-weight:bold;
 }
+
+#expense-name {
+    text-align:center;
+    padding:3px;
+    margin:3px;
+    border-style:rotateZ; 
+    width:100%;
+    border-radius:5px;
+    background-color: transparent;
+    border: 2px solid #2196f3; /* Tumhare title jaisa light blue */
+    color: #ffffff;
+}
+
+#expense-amt{
+    text-align:center;
+    padding:3px;
+    margin:3px;
+    border-style:rotateZ; 
+    width:100%;
+    border-radius:5px;
+    background-color: transparent;
+border: 2px solid #2196f3; /* Tumhare title jaisa light blue */
+color: #ffffff;
+
+
+    
+}
