@@ -58,6 +58,7 @@ myBtn.addEventListener("click",() => {
     if (expenseName === "" || expenseAmt === 0) {
         aiStatusElement.innerText="Bhai! pehle information toh daal.";
         aiStatusElement.style.color="orange";
+        return;
     }
 
 const  currentStatus= checkBudgetLimit(expenseAmt);
